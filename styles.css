@@ -1,0 +1,37 @@
+.carousel-image {
+    max-width: 100%;
+    max-height: 300px;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: transparent;
+    text-shadow: none;
+  }
+  
+  .carousel-control-prev-icon::before {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M6.41 0.59L5 2l2.58 2.59L0 3l0 2h8L5.41 7.41L7 9l1.41-1.41L2 4.99L6.41 0.59z'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-control-next-icon::before {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M1.59 0.59L0 2l2.58 2.59L0 7l0-2h8L2.59 2.59L4 1l-2.41 2.41L8 4.99L1.59 0.59z'/%3e%3c/svg%3e");
+  }
+  
+  
